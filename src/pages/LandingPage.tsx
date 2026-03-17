@@ -27,7 +27,7 @@ function LandingPage() {
           <a href="#features" className="text-sm font-medium text-white/50 hover:text-fuchsia-300 transition-colors">Features</a>
           <a href="#how-it-works" className="text-sm font-medium text-white/50 hover:text-teal-300 transition-colors">Workflow</a>
           <Link to="/docs" className="text-sm font-medium text-white/50 hover:text-white transition-colors">Docs</Link>
-          <a href="https://github.com" className="text-sm font-medium text-white/50 hover:text-white transition-colors">GitHub</a>
+          <a href="https://github.com/heisenbag/macclaw" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white/50 hover:text-white transition-colors">GitHub</a>
         </div>
       </nav>
 
@@ -250,7 +250,7 @@ function LandingPage() {
             &copy; {new Date().getFullYear()} MacClaw OSS.
           </div>
           <div className="flex gap-8">
-            <a href="https://github.com" className="text-white/40 hover:text-white transition-colors text-sm font-medium">GitHub</a>
+            <a href="https://github.com/heisenbag/macclaw" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors text-sm font-medium">GitHub</a>
             <a href="https://www.npmjs.com/package/macclaw" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors text-sm font-medium">NPM</a>
           </div>
         </div>

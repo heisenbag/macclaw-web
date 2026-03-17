@@ -290,7 +290,7 @@ function Docs() {
             &copy; {new Date().getFullYear()} MacClaw OSS.
           </div>
           <div className="flex gap-6">
-            <a href="https://github.com" className="text-white/30 hover:text-white transition-colors text-xs font-medium">GitHub</a>
+            <a href="https://github.com/heisenbag/macclaw" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-white transition-colors text-xs font-medium">GitHub</a>
             <a href="https://www.npmjs.com/package/macclaw" target="_blank" rel="noopener noreferrer" className="text-white/30 hover:text-white transition-colors text-xs font-medium">NPM</a>
           </div>
         </div>
